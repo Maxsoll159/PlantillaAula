@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+.imageLogin{
+  background-image: url("https://s3-us-west-2.amazonaws.com/uploads-desarrolloglobal.pe/2019/06/background-login.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.icon-noti {
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+      transform: scale(1, 1);
+  }
+
+  50% {
+      transform: scale(1.2, 1.2);
+  }
+
+  100% {
+      transform: scale(1, 1);
+  }
+}
