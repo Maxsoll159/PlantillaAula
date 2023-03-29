@@ -24,7 +24,7 @@ export const Opciones = () => {
             <div className="w-full flex mt-5 justify-between flex-wrap">
                 <button className="flex items-center gap-2 px-10 text-lg border py-2 bg-gray-100 text-gray-500 font-semibold rounded-md focus:text-blue-500 focus:border-blue-500">
                     <i className="fi fi-rr-play-alt flex"></i>
-                    Sesiones
+                    Sesionesasd
                 </button>
                 <button className="flex items-center gap-2 px-10 text-lg border py-2 bg-gray-100 text-gray-500 font-semibold rounded-md focus:text-blue-500 focus:border-blue-500">
                     <i className="fi fi-rr-cloud-download-alt flex"></i>
