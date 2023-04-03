@@ -4,7 +4,11 @@ const nextConfig = {
     appDir: true,
   },
   images: {
-    domains: ["s3-us-west-2.amazonaws.com", "download-archivos.s3.amazonaws.com", "aula.desarrolloglobal.pe"],
+    domains: [
+      "s3-us-west-2.amazonaws.com",
+      "download-archivos.s3.amazonaws.com",
+      "aula.desarrolloglobal.pe",
+    ],
   },
 };
 

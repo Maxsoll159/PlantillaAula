@@ -2,13 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+
 .imageLogin{
   background-image: url("https://s3-us-west-2.amazonaws.com/uploads-desarrolloglobal.pe/2019/06/background-login.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 h1, h2, h3, h4, h5, h6, p, span {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .icon-noti {

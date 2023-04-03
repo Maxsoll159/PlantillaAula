@@ -8,7 +8,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'desa': "#005BAC",
+        "infoDesa": "#0E2FAA"
+      }
+    },
   },
   plugins: [],
 }

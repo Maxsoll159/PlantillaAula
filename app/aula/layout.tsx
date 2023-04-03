@@ -16,7 +16,12 @@ export default function LayputDasboard({
                     <Menu />
                     <div className="w-screen h-screen">
                         <Navbar />
-                        {children}
+                        <div className="px-10 py-3 overflow-auto h-[92vh] bg-gray-50 pb-5">
+                            <div className="flex w-full items-start justify-between">
+                                {children}
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </body>

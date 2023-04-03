@@ -3,7 +3,7 @@
 import {Progreso, CardCursos, Filtros} from './components'
 export default function PageDas() {
   return (
-    <section className="pb-5 lg:px-14 xl:px-14 overflow-auto h-[92vh]">
+    <section className="pb-5 overflow-auto">
       <div className="flex w-auto justify-between mt-3 items-center">
         <div>
           <p className='text-black font-semibold text-2xl'>👋 Hola, <span className="font-bold text-blue-500">Martin!</span></p>

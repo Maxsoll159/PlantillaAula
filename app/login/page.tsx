@@ -2,6 +2,7 @@ import { FromLogin } from './components'
 import Image from 'next/image';
 
 export default function Hola() {
+
     return (
         <>
             <section className="flex items-center h-screen">
